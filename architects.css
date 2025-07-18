@@ -1,0 +1,80 @@
+
+.open-sans-text {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ .radious{
+    border-radius: 8px;
+ }
+header{
+    text-align: center;
+    width: 1920px;
+    height: 1322px;
+    background-color: rgba(250, 235, 215, 0.603);
+    margin:0 auto;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    margin-left: 217px;
+    font-weight: bold;
+}
+.nav2{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    gap:25px;
+    margin-right: 262px;
+}
+.text1{
+    font-size: 16px;
+    color: #00000071;
+}
+.text1{
+    font-size: 18px;
+}
+.text3{
+    font-size: 20px;
+}
+.text4{
+    font-size: 45px;
+}
+.text5{
+    font-size: 65px;
+    font-weight: bolder;
+    
+}
+.button{
+    width: 180px;
+    height: 64px;
+    margin-bottom: 50px;
+    margin-top: 32px;
+    background-color: #FF900E;
+    color:#FFFFFF;
+    font-weight: bold;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.section1{
+    display: flex;
+    align-items: center;
+}
+.gird{
+    display: grid;
+}
+.section1 h1{
+    margin-bottom: 24px;
+}
+.section1 p{
+    margin-bottom: 32px;
+}
